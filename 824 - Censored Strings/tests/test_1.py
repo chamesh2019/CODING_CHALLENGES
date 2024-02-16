@@ -27,11 +27,4 @@ tests = [
 class TestUnsensor(unittest.TestCase):
     def test_unsensor(self):
         for test in tests:
-            self.assertEqual(unsensor(test["args"][0], test["args"][1]), test["return"])
-            
-
-def main():
-    unittest.main()
-
-if __name__ == '__main__':
-    main()
+            self.assertEqual(unsensor(*test["args"]), test["return"])
