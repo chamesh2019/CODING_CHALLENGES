@@ -1,4 +1,4 @@
-def tallest_skyscraper(arr: list) -> int:
+def tallest_skyscraper(arr):
     """
     Calculate the height of the tallest skyscraper in the 2D array.
 
