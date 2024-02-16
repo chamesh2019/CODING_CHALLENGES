@@ -1,4 +1,4 @@
-def unsensor(text: str, vovels: list) -> str:
+def unsensor(text, vovels):
     """
     Replaces asterisks in the given text with the specified vowels from the `vovels` list.
     
